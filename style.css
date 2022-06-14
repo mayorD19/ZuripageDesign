@@ -100,9 +100,6 @@ a{
         width: 91%;
         /* font-size: 19px; */
     }
-    body{
-        overflow: hidden;
-    }
     .inputs{
         width: 330px;
     }
