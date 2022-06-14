@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    width: 100%;
+}
+.main-tag{
+    background-image: url("bg-intro-destop.png");
+}
+.parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -24px;
+
+}
+.form{
+    display: grid;
+}
+.main-tag{
+    height:  304px;;
+    width: 56%;
+    padding: 12% 9%;
+    background-color: hsl(0, 100%, 74%) ;
+    margin-left: 148px;
+}
+.label-tag{
+    background-color: hsl(248, 32%, 49%);
+    padding: 0px 2px;
+    border-radius: 5px;
+    width: 378px;
+}
+.p-tag{
+    padding: 13px 12px;
+    text-align: center;
+    color: white;
+}
+.form-div{
+    margin-top: -59px; 
+    width: 426px;
+    
+}
+.text-div{
+    width: 35%;
+    color: white;
+}
+input{
+    margin: 9px;
+    border-radius: 7px;
+    padding: 11px 7px;
+    outline: 2px;
+    border: 1px solid;
+}
+.first-btn{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 12px;
+    margin: 10px;
+}
+.first-btn:hover{
+    background-color: #F47C7C;
+}
+h1{
+    font-size: 35px;
+}
+.inputs{
+    background-color: white;
+    border-radius: 14px;
+    padding: 31px 9px;
+    width: 367px;
+}
+input:hover{
+    background-color: gray;
+    color: white;
+}
+h5{
+    color: gray;
+    margin-top: -3px;
+    font-size: 9px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+@media ( max-width : 700px) {
+    .parent-container{
+        flex-direction: column;
+    }
+    .main-tag{
+        width: 94%;
+        height: 100vh;
+        margin-left: 0;
+        padding: 27% 4%;
+        
+    }
+    .form-div{
+        margin-top: 48px;
+        width: 93%;
+    }
+    .text-div{
+        width: 91%;
+        /* font-size: 19px; */
+    }
+    body{
+        overflow: hidden;
+    }
+}
